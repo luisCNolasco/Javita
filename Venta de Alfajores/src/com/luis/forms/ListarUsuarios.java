@@ -1,6 +1,8 @@
 package com.luis.forms;
 
 import java.awt.EventQueue;
+import java.io.InputStream;
+import java.net.URL;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -46,28 +48,23 @@ public class ListarUsuarios extends JFrame {
 	public void mostrar() {
 
 	}
+	
+	public void listarUsers() {
+		String urlstr = "https://jsonplaceholder.typicode.com/users";
+		try {
+			URL url= new URL(urlstr);
+			
+			InputStream is = url.openStream();
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
 
 	public void mensaje(String cadena) {
 		JOptionPane.showMessageDialog(null, cadena);
 	}
 
-	public void mensaje2(String cadena) {
-		JOptionPane.showMessageDialog(null, cadena);
-	}
-	public void resta(String cadena) {
-		JOptionPane.showMessageDialog(null, cadena);
-	}
-
-	public double Suma(double num1, double num2) {
-		return num1 + num2;
-	}
-
-	public void mensaje3(String cadena) {
-		JOptionPane.showMessageDialog(null, cadena);
-	} 
-	public void mensaje4(String cadena) {
-		JOptionPane.showMessageDialog(null, cadena);
-	} 
 	
 }
 
