@@ -38,52 +38,29 @@ public class ListarUsuarios extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
-		
+
 		JLabel lblNewLabel = new JLabel("TITULO");
 		lblNewLabel.setBounds(189, 11, 46, 14);
 		contentPane.add(lblNewLabel);
 	}
-	
-	public void mostrar(){
-		
+	public void mostrar() {
+
 	}
+
 	public void mensaje(String cadena) {
 		JOptionPane.showMessageDialog(null, cadena);
 	}
-<<<<<<< HEAD
-	
-=======
->>>>>>> master
+
 	public void mensaje2(String cadena) {
 		JOptionPane.showMessageDialog(null, cadena);
 	}
-	
-<<<<<<< HEAD
-	public double Suma(double num1,double num2) {
-		return num1+num2;
+
+	public double Suma(double num1, double num2) {
+		return num1 + num2;
 	}
-	
-=======
-	
+
 	public void mensaje3(String cadena) {
 		JOptionPane.showMessageDialog(null, cadena);
 	}
->>>>>>> master
 }
 
-
-
-
-
-
-
-
-
-<<<<<<< HEAD
-
-
-
-
-
-=======
->>>>>>> master
