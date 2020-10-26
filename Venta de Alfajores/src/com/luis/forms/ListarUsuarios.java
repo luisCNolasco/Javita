@@ -53,4 +53,18 @@ public class ListarUsuarios extends JFrame {
 	public void mensaje2(String cadena) {
 		JOptionPane.showMessageDialog(null, cadena);
 	}
+	
+	
+	public void mensaje3(String cadena) {
+		JOptionPane.showMessageDialog(null, cadena);
+	}
 }
+
+
+
+
+
+
+
+
+
