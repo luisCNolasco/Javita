@@ -54,6 +54,9 @@ public class ListarUsuarios extends JFrame {
 	public void mensaje2(String cadena) {
 		JOptionPane.showMessageDialog(null, cadena);
 	}
+	public void resta(String cadena) {
+		JOptionPane.showMessageDialog(null, cadena);
+	}
 
 	public double Suma(double num1, double num2) {
 		return num1 + num2;
