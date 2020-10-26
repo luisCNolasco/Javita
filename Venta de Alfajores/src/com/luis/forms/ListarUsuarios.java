@@ -6,6 +6,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 
 public class ListarUsuarios extends JFrame {
 
@@ -44,5 +45,9 @@ public class ListarUsuarios extends JFrame {
 	}
 	
 	public void mostrar(){
+		
+	}
+	public void mensaje(String cadena) {
+		JOptionPane.showMessageDialog(null, cadena);
 	}
 }
