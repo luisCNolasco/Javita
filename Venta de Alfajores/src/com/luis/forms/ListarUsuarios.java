@@ -50,15 +50,25 @@ public class ListarUsuarios extends JFrame {
 	public void mensaje(String cadena) {
 		JOptionPane.showMessageDialog(null, cadena);
 	}
+<<<<<<< HEAD
 	
+=======
+>>>>>>> master
 	public void mensaje2(String cadena) {
 		JOptionPane.showMessageDialog(null, cadena);
 	}
 	
+<<<<<<< HEAD
 	public double Suma(double num1,double num2) {
 		return num1+num2;
 	}
 	
+=======
+	
+	public void mensaje3(String cadena) {
+		JOptionPane.showMessageDialog(null, cadena);
+	}
+>>>>>>> master
 }
 
 
@@ -69,8 +79,11 @@ public class ListarUsuarios extends JFrame {
 
 
 
+<<<<<<< HEAD
 
 
 
 
 
+=======
+>>>>>>> master
