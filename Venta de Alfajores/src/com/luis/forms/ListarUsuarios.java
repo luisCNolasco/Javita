@@ -43,4 +43,7 @@ public class ListarUsuarios extends JFrame {
 		lblNewLabel.setBounds(189, 11, 46, 14);
 		contentPane.add(lblNewLabel);
 	}
+	
+	public void mostrar(){
+	}
 }
